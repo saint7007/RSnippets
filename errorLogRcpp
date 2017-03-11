@@ -1,0 +1,194 @@
+> install.packages("Rcpp", dependencies=TRUE)
+Installing package into ‘/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘highlight’
+
+trying URL 'http://cran.rstudio.com/src/contrib/highlight_0.4.7.tar.gz'
+Content type 'application/x-gzip' length 356443 bytes (348 KB)
+==================================================
+downloaded 348 KB
+
+trying URL 'http://cran.rstudio.com/src/contrib/Rcpp_0.12.9.tar.gz'
+Content type 'application/x-gzip' length 2372283 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘highlight’ ...
+** package ‘highlight’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASBeautifier.cpp -o ASBeautifier.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASEnhancer.cpp -o ASEnhancer.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASFormatter.cpp -o ASFormatter.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASResource.cpp -o ASResource.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASStreamIterator.cpp -o ASStreamIterator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Matcher.cpp -o Matcher.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Pattern.cpp -o Pattern.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ansigenerator.cpp -o ansigenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c bbcodegenerator.cpp -o bbcodegenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c codegenerator.cpp -o codegenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c configurationreader.cpp -o configurationreader.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ctagsreader.cpp -o ctagsreader.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c datadir.cpp -o datadir.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c documentstyle.cpp -o documentstyle.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c elementstyle.cpp -o elementstyle.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c highlight_wrapper.cpp -o highlight_wrapper.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c htmlgenerator.cpp -o htmlgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c languagedefinition.cpp -o languagedefinition.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c latexgenerator.cpp -o latexgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c platform_fs.cpp -o platform_fs.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c preformatter.cpp -o preformatter.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c render.cpp -o render.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c rtfgenerator.cpp -o rtfgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c stringtools.cpp -o stringtools.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c stylecolour.cpp -o stylecolour.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c svggenerator.cpp -o svggenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c texgenerator.cpp -o texgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c xhtmlgenerator.cpp -o xhtmlgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c xmlgenerator.cpp -o xmlgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c xterm256generator.cpp -o xterm256generator.o
+g++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o highlight.so ASBeautifier.o ASEnhancer.o ASFormatter.o ASResource.o ASStreamIterator.o Matcher.o Pattern.o ansigenerator.o bbcodegenerator.o codegenerator.o configurationreader.o ctagsreader.o datadir.o documentstyle.o elementstyle.o highlight_wrapper.o htmlgenerator.o languagedefinition.o latexgenerator.o platform_fs.o preformatter.o render.o rtfgenerator.o stringtools.o stylecolour.o svggenerator.o texgenerator.o xhtmlgenerator.o xmlgenerator.o xterm256generator.o -L/usr/lib/R/lib -lR
+installing to /home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/highlight/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/highlight/libs/highlight.so':
+  /home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/highlight/libs/highlight.so: undefined symbol: _ZTVN10__cxxabiv117__class_type_infoE
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/highlight’
+Warning in install.packages :
+  installation of package ‘highlight’ had non-zero exit status
+* installing *source* package ‘Rcpp’ ...
+** package ‘Rcpp’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Date.cpp -o Date.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Module.cpp -o Module.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Rcpp_init.cpp -o Rcpp_init.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c api.cpp -o api.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c attributes.cpp -o attributes.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c barrier.cpp -o barrier.o
+g++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o Rcpp.so Date.o Module.o Rcpp_init.o api.o attributes.o barrier.o -L/usr/lib/R/lib -lR
+installing to /home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/libs/Rcpp.so':
+  /home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/libs/Rcpp.so: undefined symbol: _ZTVN10__cxxabiv120__si_class_type_infoE
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/Rcpp’
+Warning in install.packages :
+  installation of package ‘Rcpp’ had non-zero exit status
+
+The downloaded source packages are in
+	‘/tmp/RtmpsPMzSK/downloaded_packages’
+> install.packages("Rcpp", dependencies=TRUE)
+Installing package into ‘/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘highlight’
+
+trying URL 'http://cran.rstudio.com/src/contrib/highlight_0.4.7.tar.gz'
+Content type 'application/x-gzip' length 356443 bytes (348 KB)
+==================================================
+downloaded 348 KB
+
+trying URL 'http://cran.rstudio.com/src/contrib/Rcpp_0.12.9.tar.gz'
+Content type 'application/x-gzip' length 2372283 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘highlight’ ...
+** package ‘highlight’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASBeautifier.cpp -o ASBeautifier.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASEnhancer.cpp -o ASEnhancer.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASFormatter.cpp -o ASFormatter.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASResource.cpp -o ASResource.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ASStreamIterator.cpp -o ASStreamIterator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Matcher.cpp -o Matcher.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Pattern.cpp -o Pattern.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ansigenerator.cpp -o ansigenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c bbcodegenerator.cpp -o bbcodegenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c codegenerator.cpp -o codegenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c configurationreader.cpp -o configurationreader.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ctagsreader.cpp -o ctagsreader.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c datadir.cpp -o datadir.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c documentstyle.cpp -o documentstyle.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c elementstyle.cpp -o elementstyle.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c highlight_wrapper.cpp -o highlight_wrapper.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c htmlgenerator.cpp -o htmlgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c languagedefinition.cpp -o languagedefinition.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c latexgenerator.cpp -o latexgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c platform_fs.cpp -o platform_fs.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c preformatter.cpp -o preformatter.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c render.cpp -o render.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c rtfgenerator.cpp -o rtfgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c stringtools.cpp -o stringtools.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c stylecolour.cpp -o stylecolour.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c svggenerator.cpp -o svggenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c texgenerator.cpp -o texgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c xhtmlgenerator.cpp -o xhtmlgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c xmlgenerator.cpp -o xmlgenerator.o
+g++ -I/usr/share/R/include -DNDEBUG     -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c xterm256generator.cpp -o xterm256generator.o
+g++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o highlight.so ASBeautifier.o ASEnhancer.o ASFormatter.o ASResource.o ASStreamIterator.o Matcher.o Pattern.o ansigenerator.o bbcodegenerator.o codegenerator.o configurationreader.o ctagsreader.o datadir.o documentstyle.o elementstyle.o highlight_wrapper.o htmlgenerator.o languagedefinition.o latexgenerator.o platform_fs.o preformatter.o render.o rtfgenerator.o stringtools.o stylecolour.o svggenerator.o texgenerator.o xhtmlgenerator.o xmlgenerator.o xterm256generator.o -L/usr/lib/R/lib -lR
+installing to /home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/highlight/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/highlight/libs/highlight.so':
+  /home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/highlight/libs/highlight.so: undefined symbol: _ZTVN10__cxxabiv117__class_type_infoE
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/highlight’
+Warning in install.packages :
+  installation of package ‘highlight’ had non-zero exit status
+* installing *source* package ‘Rcpp’ ...
+** package ‘Rcpp’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Date.cpp -o Date.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Module.cpp -o Module.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Rcpp_init.cpp -o Rcpp_init.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c api.cpp -o api.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c attributes.cpp -o attributes.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c barrier.cpp -o barrier.o
+g++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o Rcpp.so Date.o Module.o Rcpp_init.o api.o attributes.o barrier.o -L/usr/lib/R/lib -lR
+installing to /home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/libs/Rcpp.so':
+  /home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/libs/Rcpp.so: undefined symbol: _ZTVN10__cxxabiv120__si_class_type_infoE
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/home/sukumar/R/x86_64-pc-linux-gnu-library/3.3/Rcpp’
+Warning in install.packages :
+  installation of package ‘Rcpp’ had non-zero exit status
+
+The downloaded source packages are in
+	‘/tmp/RtmpsPMzSK/downloaded_packages’
